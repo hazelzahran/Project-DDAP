@@ -8,9 +8,17 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.3.6"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/4K-AN/Project-DDAP.git"
+  },
+  "bugs": {
+    "url": "https://github.com/4K-AN/Project-DDAP/issues"
+  },
+  "homepage": "https://github.com/4K-AN/Project-DDAP#readme",
+  "description": ""
 }

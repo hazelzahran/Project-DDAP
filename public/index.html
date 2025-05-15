@@ -3,33 +3,220 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DDAP Project</title>
-    
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
-    
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="assets/css/custom.css">
+    <title>Samura Harakiri - Knife</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* Reset dan aturan dasar */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Halaman Utama */
+        .home-page {
+            height: 100vh;
+            position: relative;
+            overflow: hidden;
+            font-family: 'Roboto', sans-serif;
+            max-width: 1440px;
+            margin: 0 auto;
+            background-color: #f8f9fa;
+        }
+
+        /* Header */
+        .header-59 {
+            position: absolute;
+            width: 100%;
+            height: 80px;
+            top: 0;
+            left: 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 5%;
+            z-index: 10;
+        }
+
+        /* Logo dan Navigation */
+        .site-logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .site {
+            font-size: 22px;
+            font-weight: 400;
+            color: #000000;
+            margin-right: 8px;
+        }
+
+        .logo {
+            font-size: 22px;
+            font-weight: 400;
+            color: #000000;
+        }
+
+        /* Menu Navigation */
+        .menu {
+            display: flex;
+            gap: 30px;
+        }
+
+        .menu a {
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 400;
+            color: #000000;
+            transition: color 0.3s ease;
+        }
+
+        .menu a:hover {
+            color: #555;
+        }
+
+        /* Icon Group */
+        .icon-group {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+
+        .icon-container {
+            width: 40px;
+            height: 40px;
+            background-color: #eee;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .icon-container:hover {
+            background-color: #ddd;
+        }
+
+        /* Main Content */
+        .main-content {
+            position: absolute;
+            top: 25%;
+            left: 10%;
+            width: 45%;
+            z-index: 2;
+        }
+
+        .samura-harakiri {
+            color: #000000;
+            font-size: 52px;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        .product-description {
+            font-size: 18px;
+            font-weight: 400;
+            color: #333;
+            line-height: 1.6;
+            margin-bottom: 40px;
+            max-width: 478px;
+        }
+
+        /* Button */
+        .button-buy {
+            position: relative;
+            width: 149px;
+            height: 49px;
+            display: inline-block;
+            background-color: #000;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            text-align: center;
+            line-height: 49px;
+        }
+
+        .button-buy:hover {
+            background-color: #333;
+        }
+
+        .buy {
+            font-size: 16px;
+            font-weight: 500;
+            color: #fff;
+        }
+
+        /* Product Image Area */
+        .product-image {
+            position: absolute;
+            top: 15%;
+            right: 5%;
+            width: 45%;
+            height: 70%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1;
+        }
+
+        /* Background elements - stylized as needed */
+        .background-elements {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: 0;
+        }
+    </style>
 </head>
 <body>
-    <!-- Contoh Komponen Bootstrap -->
-    <nav class="navbar navbar-expand-lg bg-primary">
-        <div class="container-fluid">
-            <a class="navbar-brand text-white" href="#">DDAP</a>
+    <div class="home-page">
+        <header class="header-59">
+            <div class="site-logo">
+                <span class="site">Site</span>
+                <span class="logo">Logo</span>
+            </div>
+
+            <nav class="menu">
+                <a href="#" class="about">About</a>
+                <a href="#" class="features">Features</a>
+                <a href="#" class="pricing">Pricing</a>
+                <a href="#" class="gallery">Gallery</a>
+            </nav>
+
+            <div class="icon-group">
+                <div class="icon-container">
+                    <div class="icon-3">🔍</div>
+                </div>
+                <div class="icon-container">
+                    <div class="icon-2">🛒</div>
+                </div>
+                <div class="icon-container">
+                    <div class="icon">👤</div>
+                </div>
+            </div>
+        </header>
+
+        <div class="main-content">
+            <h1 class="samura-harakiri">Samura Harakiri</h1>
+            <p class="product-description">
+                A lightweight and multifunctional universal knife is the most popular tool in the home and professional kitchen, used for cutting small vegetables and fruits, cheese, sausages.
+            </p>
+            <div class="button-buy">
+                <span class="buy">Buy</span>
+            </div>
         </div>
-    </nav>
 
-    <!-- Konten Utama -->
-    <div class="container mt-4">
-        <h1>Hello Bootstrap! 🚀</h1>
-        <button class="btn btn-success">Coba Tombol</button>
+        <div class="product-image">
+            <!-- Placeholder for product image -->
+            <img src="/api/placeholder/400/320" alt="Samura Harakiri Knife" />
+        </div>
+
+        <div class="background-elements">
+            <!-- Stylized background elements would go here -->
+        </div>
     </div>
-
-    <!-- Bootstrap JS + Popper -->
-    <script src="../node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
-    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    
-    <!-- Custom JS -->
-    <script src="assets/js/custom.js"></script>
 </body>
 </html>

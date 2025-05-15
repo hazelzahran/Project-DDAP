@@ -1,0 +1,368 @@
+.home-page,
+.home-page * {
+    box-sizing: border-box;
+}
+
+.home-page {
+    height: 800px;
+    position: relative;
+    overflow: hidden;
+}
+
+.header-59 {
+    position: absolute;
+    inset: 0;
+}
+
+.vector {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    bottom: 0%;
+    top: 0%;
+    overflow: visible;
+}
+
+.rectangle-17 {
+    width: 1440pxx;
+    height: 900px;
+    position: absolute;
+    left: calc(50% - 87px);
+    top: -38px;
+    overflow: visible;
+}
+
+.rectangle-14 {
+    width: 807px;
+    height: 409px;
+    position: absolute;
+    left: 1440px;
+    top: 400px;
+    overflow: visible;
+}
+
+.rectangle-18 {
+    width: 1440px;
+    height: 421px;
+    position: absolute;
+    left: 1050px;
+    top: -578px;
+    overflow: visible;
+}
+
+.samura-harakiri {
+    color: #000000;
+    text-align: left;
+    font-family: 'Roboto-Regular', sans-serif;
+    font-size: 52px;
+    font-weight: 400;
+    position: absolute;
+    right: 59.72%;
+    left: 9.65%;
+    width: 30.63%;
+    bottom: 65.72%;
+    top: 26.66%;
+    height: 7.62%;
+}
+
+.a-lightweight-and-multifunctional-universal-knife-is-the-most-popular-tool-in-the-home-and-professional-kitchen-used-for-cutting-small-vegetables-and-fruits-cheese-sausages {
+    width: 478px;
+    height: 73px;
+    position: static;
+}
+
+.a-lightweight-and-multifunctional-universal-knife-is-the-most {
+    color: #000000;
+    text-align: left;
+    font-family: 'Roboto-Regular', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    position: absolute;
+    right: 57.15%;
+    left: 9.65%;
+    width: 33.19%;
+    bottom: 59.11%;
+    top: 38.27%;
+    height: 2.62%;
+}
+
+.popular-tool-in-the-home-and-professional-kitchen-used-for {
+    color: #000000;
+    text-align: left;
+    font-family: 'Roboto-Regular', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    position: absolute;
+    right: 57.71%;
+    left: 9.65%;
+    width: 32.64%;
+    bottom: 55.86%;
+    top: 41.52%;
+    height: 2.62%;
+}
+
+.cutting-small-vegetables-and-fruits-cheese-sausages {
+    color: #000000;
+    text-align: left;
+    font-family: 'Roboto-Regular', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    position: absolute;
+    right: 60.76%;
+    left: 9.65%;
+    width: 29.58%;
+    bottom: 52.61%;
+    top: 44.77%;
+    height: 2.62%;
+}
+
+.site-logo {
+    width: 114.42px;
+    height: 26px;
+    position: static;
+}
+
+.line-3 {
+    width: 0%;
+    height: 2%;
+    position: absolute;
+    right: 96.11%;
+    left: 3.89%;
+    bottom: 93.88%;
+    top: 4.12%;
+    overflow: visible;
+}
+
+.line-4 {
+    width: 0%;
+    height: 1.5%;
+    position: absolute;
+    right: 95.42%;
+    left: 4.58%;
+    bottom: 94.13%;
+    top: 4.37%;
+    overflow: visible;
+}
+
+.line-5 {
+    width: 0%;
+    height: 1%;
+    position: absolute;
+    right: 94.72%;
+    left: 5.28%;
+    bottom: 94.38%;
+    top: 4.62%;
+    overflow: visible;
+}
+
+.site-logo-2 {
+    width: 86.42px;
+    height: 26px;
+    position: static;
+}
+
+.logo {
+    color: #000000;
+    text-align: left;
+    font-family: 'Roboto-Regular', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    position: absolute;
+    right: 88.17%;
+    left: 8.36%;
+    width: 3.47%;
+    bottom: 93.44%;
+    top: 3.31%;
+    height: 3.25%;
+}
+
+.site {
+    color: #000000;
+    text-align: left;
+    font-family: 'Roboto-Regular', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    position: absolute;
+    right: 91.53%;
+    left: 5.83%;
+    width: 2.64%;
+    bottom: 93.44%;
+    top: 3.31%;
+    height: 3.25%;
+}
+
+.ellipse-74 {
+    width: 2.78%;
+    height: 5%;
+    position: absolute;
+    right: 0.69%;
+    left: 96.53%;
+    bottom: 92.38%;
+    top: 2.62%;
+    overflow: visible;
+}
+
+.ellipse-75 {
+    width: 2.78%;
+    height: 5%;
+    position: absolute;
+    right: 6.6%;
+    left: 90.62%;
+    bottom: 92.38%;
+    top: 2.62%;
+    overflow: visible;
+}
+
+.ellipse-76 {
+    width: 2.78%;
+    height: 5%;
+    position: absolute;
+    right: 12.5%;
+    left: 84.72%;
+    bottom: 92.38%;
+    top: 2.62%;
+    overflow: visible;
+}
+
+.icon {
+    width: 1.25%;
+    height: 1.51%;
+    position: absolute;
+    right: 1.46%;
+    left: 97.29%;
+    bottom: 94.12%;
+    top: 4.37%;
+    overflow: visible;
+}
+
+.icon-2 {
+    width: 1.39%;
+    height: 3%;
+    position: absolute;
+    right: 7.29%;
+    left: 91.32%;
+    bottom: 93.38%;
+    top: 3.62%;
+    overflow: visible;
+}
+
+.icon-3 {
+    width: 1.11%;
+    height: 2.25%;
+    position: absolute;
+    right: 13.33%;
+    left: 85.56%;
+    bottom: 93.75%;
+    top: 4%;
+    overflow: visible;
+}
+
+.button-buy {
+    width: 149px;
+    height: 49px;
+    position: static;
+}
+
+.vector2 {
+    width: 10.35%;
+    height: 6.12%;
+    position: absolute;
+    right: 79.97%;
+    left: 9.69%;
+    bottom: 36.56%;
+    top: 57.31%;
+    overflow: visible;
+}
+
+.vector3 {
+    width: 10.35%;
+    height: 6.12%;
+    position: absolute;
+    right: 79.97%;
+    left: 9.69%;
+    bottom: 36.56%;
+    top: 57.31%;
+    overflow: visible;
+}
+
+.buy {
+    color: #000000;
+    text-align: left;
+    font-family: 'Roboto-Regular', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    position: absolute;
+    right: 83%;
+    left: 12.77%;
+    width: 4.24%;
+    bottom: 38.57%;
+    top: 59.06%;
+    height: 2.38%;
+}
+
+.menu {
+    position: absolute;
+    inset: 0;
+}
+
+.about {
+    color: #000000;
+    text-align: left;
+    font-family: 'Roboto-Regular', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    position: absolute;
+    right: 65.07%;
+    left: 29.1%;
+    width: 5.83%;
+    bottom: 95%;
+    top: 2.62%;
+    height: 2.38%;
+}
+
+.features {
+    color: #000000;
+    text-align: left;
+    font-family: 'Roboto-Regular', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    position: absolute;
+    right: 58.26%;
+    left: 37.15%;
+    width: 4.58%;
+    bottom: 95%;
+    top: 2.62%;
+    height: 2.38%;
+}
+
+.pricing {
+    color: #000000;
+    text-align: left;
+    font-family: 'Roboto-Regular', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    position: absolute;
+    right: 51.11%;
+    left: 43.96%;
+    width: 4.93%;
+    bottom: 95%;
+    top: 2.62%;
+    height: 2.38%;
+}
+
+.gallery {
+    color: #000000;
+    text-align: left;
+    font-family: 'Roboto-Regular', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    position: absolute;
+    right: 45.42%;
+    left: 51.11%;
+    width: 3.47%;
+    bottom: 95%;
+    top: 2.62%;
+    height: 2.38%;
+}
