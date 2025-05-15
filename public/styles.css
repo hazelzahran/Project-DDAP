@@ -1,284 +1,225 @@
-.vector-icon {
-  	position: absolute;
-  	height: 55.56%;
-  	width: 96.19%;
-  	top: 40.14%;
-  	right: 3.81%;
-  	bottom: 4.31%;
-  	left: 0%;
-  	max-width: 100%;
-  	overflow: hidden;
-  	max-height: 100%;
-}
-.component-child {
-  	position: absolute;
-  	top: 510px;
-  	left: 495px;
-  	width: 239.4px;
-  	height: 206.2px;
-  	object-fit: contain;
-}
-.header-59-inner {
-  	position: absolute;
-  	top: 540px;
-  	left: calc(50% - 115.5px);
-  	background-color: #005364;
-  	width: 864px;
-  	height: 900px;
-  	overflow: hidden;
-}
-.header-59-child {
-  	position: absolute;
-  	top: 569px;
-  	left: 633px;
-  	width: 807px;
-  	height: 409px;
-  	object-fit: contain;
-}
-.header-59-item {
-  	position: absolute;
-  	top: 0px;
-  	left: 629px;
-  	width: 421px;
-  	height: 1440px;
-  	object-fit: contain;
-}
-.samura-harakiri {
-  	position: absolute;
-  	top: 54.95%;
-  	left: 9.29%;
-}
-.a-lightweight-and {
-  	position: absolute;
-  	top: 0%;
-  	left: 0%;
-}
-.popular-tool-in {
-  	position: absolute;
-  	top: 35.62%;
-  	left: 0%;
-}
-.cutting-small-vegetables {
-  	position: absolute;
-  	top: 71.23%;
-  	left: 0%;
-}
-.a-lightweight-and-multifunctio {
-  	position: absolute;
-  	height: 5.07%;
-  	width: 31.93%;
-  	top: 61.4%;
-  	right: 58.78%;
-  	bottom: 33.53%;
-  	left: 9.29%;
-  	font-size: 18px;
-}
-.sitelogo-child {
-  	position: absolute;
-  	height: 61.54%;
-  	width: 3.5%;
-  	top: 24.92%;
-  	right: 96.5%;
-  	bottom: 13.54%;
-  	left: 0%;
-  	max-width: 100%;
-  	overflow: hidden;
-  	max-height: 100%;
-}
-.sitelogo-item {
-  	position: absolute;
-  	height: 46.15%;
-  	width: 3.5%;
-  	top: 32.62%;
-  	right: 87.76%;
-  	bottom: 21.23%;
-  	left: 8.74%;
-  	max-width: 100%;
-  	overflow: hidden;
-  	max-height: 100%;
-}
-.sitelogo-inner {
-  	position: absolute;
-  	height: 30.77%;
-  	width: 3.5%;
-  	top: 40.31%;
-  	right: 79.02%;
-  	bottom: 28.92%;
-  	left: 17.48%;
-  	max-width: 100%;
-  	overflow: hidden;
-  	max-height: 100%;
-}
-.logo {
-  	position: absolute;
-  	top: 0%;
-  	left: 42.15%;
-}
-.sitelogo-2 {
-  	position: absolute;
-  	height: 100%;
-  	width: 75.52%;
-  	top: 0%;
-  	right: 0%;
-  	bottom: 0%;
-  	left: 24.48%;
-}
-.sitelogo {
-  	position: absolute;
-  	height: 1.81%;
-  	width: 7.64%;
-  	top: 41.98%;
-  	right: 88.62%;
-  	bottom: 56.21%;
-  	left: 3.74%;
-  	font-size: 22px;
-}
-.ellipse-icon {
-  	position: absolute;
-  	height: 2.78%;
-  	width: 2.67%;
-  	top: 41.6%;
-  	right: 4.48%;
-  	bottom: 55.63%;
-  	left: 92.85%;
-  	max-width: 100%;
-  	overflow: hidden;
-  	max-height: 100%;
-}
-.header-59-child1 {
-  	position: absolute;
-  	height: 2.78%;
-  	width: 2.67%;
-  	top: 41.6%;
-  	right: 10.15%;
-  	bottom: 55.63%;
-  	left: 87.17%;
-  	max-width: 100%;
-  	overflow: hidden;
-  	max-height: 100%;
-}
-.header-59-child2 {
-  	position: absolute;
-  	height: 2.78%;
-  	width: 2.67%;
-  	top: 41.6%;
-  	right: 15.83%;
-  	bottom: 55.63%;
-  	left: 81.5%;
-  	max-width: 100%;
-  	overflow: hidden;
-  	max-height: 100%;
-  	cursor: pointer;
-}
-.icon {
-  	position: absolute;
-  	height: 0.84%;
-  	width: 1.2%;
-  	top: 42.57%;
-  	right: 5.21%;
-  	bottom: 56.59%;
-  	left: 93.59%;
-  	max-width: 100%;
-  	overflow: hidden;
-  	max-height: 100%;
-}
-.icon-2 {
-  	position: absolute;
-  	height: 1.67%;
-  	width: 1.34%;
-  	top: 42.15%;
-  	right: 10.82%;
-  	bottom: 56.18%;
-  	left: 87.84%;
-  	max-width: 100%;
-  	overflow: hidden;
-  	max-height: 100%;
-}
-.icon-3 {
-  	position: absolute;
-  	height: 1.25%;
-  	width: 1.07%;
-  	top: 42.36%;
-  	right: 16.63%;
-  	bottom: 56.39%;
-  	left: 82.3%;
-  	max-width: 100%;
-  	overflow: hidden;
-  	max-height: 100%;
-}
-.vector-icon1 {
-  	position: absolute;
-  	height: 100%;
-  	width: 100%;
-  	top: 0%;
-  	right: 0%;
-  	bottom: 0%;
-  	left: 0%;
-  	max-width: 100%;
-  	overflow: hidden;
-  	max-height: 100%;
-}
-.buy {
-  	position: absolute;
-  	top: 28.51%;
-  	left: 29.76%;
-}
-.buttonbuy {
-  	position: absolute;
-  	height: 3.4%;
-  	width: 9.95%;
-  	top: 71.98%;
-  	right: 80.73%;
-  	bottom: 24.62%;
-  	left: 9.32%;
-  	cursor: pointer;
-  	font-size: 16px;
-}
-.header-59 {
-  	position: absolute;
-  	height: 180%;
-  	width: 103.96%;
-  	top: -72.25%;
-  	right: -3.96%;
-  	bottom: -7.75%;
-  	left: 0%;
-}
-.features {
-  	position: absolute;
-  	top: 0%;
-  	left: 31.61%;
-  	cursor: pointer;
-}
-.pricing {
-  	position: absolute;
-  	top: 0%;
-  	left: 58.31%;
-  	cursor: pointer;
-}
-.gallery {
-  	position: absolute;
-  	top: 0%;
-  	left: 86.38%;
-  	cursor: pointer;
-}
-.menu {
-  	position: absolute;
-  	height: 2.38%;
-  	width: 25.49%;
-  	top: 3.88%;
-  	right: 45.42%;
-  	bottom: 93.75%;
-  	left: 29.1%;
-  	font-size: 16px;
-}
-.home-page {
-  	width: 100%;
-  	position: relative;
-  	height: 800px;
-  	overflow: hidden;
-  	text-align: left;
-  	font-size: 52px;
-  	color: #000;
-  	font-family: Roboto;
-}
+ /* Reset and base rules */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
 
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f8f9fa;
+        }
+
+        /* Main Page */
+        .home-page {
+            height: 100vh;
+            position: relative;
+            overflow: hidden;
+            max-width: 1440px;
+            margin: 0 auto;
+            background-color: #f8f9fa;
+        }
+
+        /* Header */
+        .header-59 {
+            position: fixed;
+            width: 100%;
+            height: 80px;
+            top: 0;
+            left: 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 5%;
+            z-index: 10;
+            background-color: rgba(255, 255, 255, 0.95);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Logo and Navigation */
+        .site-logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .site {
+            font-size: 22px;
+            font-weight: 700;
+            color: #ffb700;
+            margin-right: 8px;
+        }
+
+        .logo {
+            font-size: 22px;
+            font-weight: 400;
+            color: #000000;
+        }
+
+        /* Menu Navigation */
+        .menu {
+            display: flex;
+            gap: 30px;
+        }
+
+        .menu a {
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 500;
+            color: #000000;
+            transition: color 0.3s ease;
+        }
+
+        .menu a:hover {
+            color: #fff700;
+        }
+
+        /* Icon Group */
+        .icon-group {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+
+        .icon-container {
+            width: 40px;
+            height: 40px;
+            background-color: #eee;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .icon-container:hover {
+            background-color: #cdb205;
+        }
+
+        .icon-container:hover .icon,
+        .icon-container:hover .icon-2,
+        .icon-container:hover .icon-3 {
+            color: #fff;
+        }
+
+        .icon, .icon-2, .icon-3 {
+            font-size: 20px;
+            transition: color 0.3s ease;
+        }
+
+        /* Main Content */
+        .main-content {
+            position: absolute;
+            top: 25%;
+            left: 10%;
+            width: 45%;
+            z-index: 2;
+        }
+
+        .samura-harakiri {
+            color: #ffd000;
+            font-size: 52px;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        .product-description {
+            font-size: 18px;
+            font-weight: 400;
+            color: #333;
+            line-height: 1.6;
+            margin-bottom: 40px;
+            max-width: 478px;
+        }
+
+        /* Button */
+        .button-buy {
+            position: relative;
+            width: 149px;
+            height: 49px;
+            display: inline-block;
+            background-color: #ffe100;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            text-align: center;
+            line-height: 49px;
+        }
+
+        .button-buy:hover {
+            background-color: #ffea00;
+        }
+
+        .buy {
+            font-size: 16px;
+            font-weight: 500;
+            color: #fff;
+        }
+
+        /* Product Image Area */
+        .product-image {
+            position: absolute;
+            top: 15%;
+            right: 5%;
+            width: 45%;
+            height: 70%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1;
+            background-color: rgba(255, 187, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        /* Background elements */
+        .background-elements {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: 0;
+        }
+
+        /* Vector decoration from CSS file */
+        .vector-icon {
+            position: absolute;
+            height: 55.56%;
+            width: 96.19%;
+            top: 40.14%;
+            right: 3.81%;
+            bottom: 4.31%;
+            left: 0%;
+            max-width: 100%;
+            overflow: hidden;
+            max-height: 100%;
+            opacity: 0.1;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .header-59 {
+                padding: 0 20px;
+            }
+
+            .menu {
+                gap: 15px;
+            }
+
+            .main-content {
+                top: 20%;
+                left: 5%;
+                width: 90%;
+            }
+
+            .samura-harakiri {
+                font-size: 36px;
+            }
+
+            .product-image {
+                top: 55%;
+                right: 5%;
+                width: 90%;
+                height: 40%;
+            }
+        }
