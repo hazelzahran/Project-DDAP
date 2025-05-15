@@ -1,0 +1,221 @@
+.eat-code-repeat {
+  	position: absolute;
+  	top: 369px;
+  	left: 122px;
+  	display: inline-block;
+  	width: 238px;
+  	height: 31px;
+}
+.about {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 1440px;
+  	height: 800px;
+  	overflow: hidden;
+}
+.about-us-child {
+  	position: absolute;
+  	top: -979px;
+  	left: -3px;
+  	width: 3552px;
+  	height: 1802px;
+  	object-fit: contain;
+}
+.a-lightweight-and-multifunctio {
+  	position: absolute;
+  	height: 9.3%;
+  	width: 23.03%;
+  	top: 12.75%;
+  	right: 75.03%;
+  	bottom: 77.95%;
+  	left: 1.94%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+  	object-fit: contain;
+}
+.about-us-item {
+  	position: absolute;
+  	top: 0px;
+  	left: -3px;
+  	width: 1443px;
+  	height: 227px;
+  	object-fit: contain;
+}
+.about-us-inner {
+  	position: absolute;
+  	height: 5%;
+  	width: 2.71%;
+  	top: 2.63%;
+  	right: 2.01%;
+  	bottom: 92.38%;
+  	left: 95.28%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.ellipse-icon {
+  	position: absolute;
+  	height: 5%;
+  	width: 2.71%;
+  	top: 2.63%;
+  	right: 7.78%;
+  	bottom: 92.38%;
+  	left: 89.51%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.about-us-child1 {
+  	position: absolute;
+  	height: 5%;
+  	width: 2.71%;
+  	top: 2.63%;
+  	right: 13.54%;
+  	bottom: 92.38%;
+  	left: 83.75%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+  	cursor: pointer;
+}
+.rectangle-div {
+  	position: absolute;
+  	top: -5px;
+  	left: 4px;
+  	background-color: #ffc737;
+  	width: 1436px;
+  	height: 86px;
+}
+.icon-3 {
+  	position: absolute;
+  	height: 3.03%;
+  	width: 12.72%;
+  	top: 3.63%;
+  	right: 2.74%;
+  	bottom: 93.34%;
+  	left: 84.54%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.ngemeal-child {
+  	position: absolute;
+  	height: 70.77%;
+  	width: 2.96%;
+  	top: 17.19%;
+  	right: 97.04%;
+  	bottom: 12.04%;
+  	left: 0%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.ngemeal-item {
+  	position: absolute;
+  	height: 53.08%;
+  	width: 2.96%;
+  	top: 26.06%;
+  	right: 89.15%;
+  	bottom: 20.86%;
+  	left: 7.89%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.ngemeal-inner {
+  	position: absolute;
+  	height: 35.38%;
+  	width: 2.96%;
+  	top: 34.93%;
+  	right: 81.26%;
+  	bottom: 29.69%;
+  	left: 15.78%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.meal {
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	top: 0%;
+  	left: 0%;
+  	display: inline-block;
+}
+.sitelogo {
+  	position: absolute;
+  	height: 100%;
+  	width: 77.04%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 22.96%;
+}
+.ngemeal {
+  	position: absolute;
+  	height: 96.3%;
+  	width: 18.15%;
+  	top: 0%;
+  	right: 81.85%;
+  	bottom: 3.7%;
+  	left: 0%;
+  	cursor: pointer;
+  	font-size: 22px;
+}
+.about1 {
+  	position: absolute;
+  	top: 29.63%;
+  	left: 50.67%;
+  	cursor: pointer;
+}
+.features {
+  	position: absolute;
+  	top: 29.63%;
+  	left: 66.26%;
+}
+.pricing {
+  	position: absolute;
+  	top: 29.63%;
+  	left: 79.44%;
+  	cursor: pointer;
+}
+.gallery {
+  	position: absolute;
+  	top: 29.63%;
+  	left: 93.28%;
+  	cursor: pointer;
+}
+.menu {
+  	position: absolute;
+  	height: 3.38%;
+  	width: 51.67%;
+  	top: 3.88%;
+  	right: 45.49%;
+  	bottom: 92.75%;
+  	left: 2.85%;
+  	font-size: 16px;
+  	color: #fff;
+  	font-family: Roboto;
+}
+.rectangle-icon {
+  	position: absolute;
+  	top: 265px;
+  	left: 875px;
+  	width: 478.2px;
+  	height: 401.9px;
+  	object-fit: contain;
+}
+.about-us {
+  	width: 100%;
+  	position: relative;
+  	background-color: #dae6ed;
+  	height: 800px;
+  	overflow: hidden;
+  	text-align: left;
+  	font-size: 20px;
+  	color: rgba(0, 0, 0, 0);
+  	font-family: Itim;
+}
+

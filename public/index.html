@@ -3,22 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Samura Harakiri - Knife</title>
+    <title>GK Meal - Food Service</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <style>
-        /* Reset dan aturan dasar */
+        /* Reset and base rules */
         * {
             box-sizing: border-box;
             margin: 0;
             padding: 0;
         }
 
-        /* Halaman Utama */
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f8f9fa;
+        }
+
+        /* Main Page */
         .home-page {
             height: 100vh;
             position: relative;
             overflow: hidden;
-            font-family: 'Roboto', sans-serif;
             max-width: 1440px;
             margin: 0 auto;
             background-color: #f8f9fa;
@@ -26,7 +30,7 @@
 
         /* Header */
         .header-59 {
-            position: absolute;
+            position: fixed;
             width: 100%;
             height: 80px;
             top: 0;
@@ -36,9 +40,11 @@
             justify-content: space-between;
             padding: 0 5%;
             z-index: 10;
+            background-color: rgba(255, 255, 255, 0.95);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
         }
 
-        /* Logo dan Navigation */
+        /* Logo and Navigation */
         .site-logo {
             display: flex;
             align-items: center;
@@ -46,8 +52,8 @@
 
         .site {
             font-size: 22px;
-            font-weight: 400;
-            color: #000000;
+            font-weight: 700;
+            color: #ffb700;
             margin-right: 8px;
         }
 
@@ -66,13 +72,13 @@
         .menu a {
             text-decoration: none;
             font-size: 16px;
-            font-weight: 400;
+            font-weight: 500;
             color: #000000;
             transition: color 0.3s ease;
         }
 
         .menu a:hover {
-            color: #555;
+            color: #fff700;
         }
 
         /* Icon Group */
@@ -91,11 +97,22 @@
             align-items: center;
             justify-content: center;
             cursor: pointer;
-            transition: background-color 0.3s ease;
+            transition: all 0.3s ease;
         }
 
         .icon-container:hover {
-            background-color: #ddd;
+            background-color: #cdb205;
+        }
+
+        .icon-container:hover .icon,
+        .icon-container:hover .icon-2,
+        .icon-container:hover .icon-3 {
+            color: #fff;
+        }
+
+        .icon, .icon-2, .icon-3 {
+            font-size: 20px;
+            transition: color 0.3s ease;
         }
 
         /* Main Content */
@@ -108,7 +125,7 @@
         }
 
         .samura-harakiri {
-            color: #000000;
+            color: #ffd000;
             font-size: 52px;
             font-weight: 700;
             margin-bottom: 20px;
@@ -129,7 +146,7 @@
             width: 149px;
             height: 49px;
             display: inline-block;
-            background-color: #000;
+            background-color: #ffe100;
             border-radius: 6px;
             cursor: pointer;
             transition: background-color 0.3s ease;
@@ -138,7 +155,7 @@
         }
 
         .button-buy:hover {
-            background-color: #333;
+            background-color: #ffea00;
         }
 
         .buy {
@@ -158,9 +175,11 @@
             align-items: center;
             justify-content: center;
             z-index: 1;
+            background-color: rgba(255, 187, 0, 0.1);
+            border-radius: 10px;
         }
 
-        /* Background elements - stylized as needed */
+        /* Background elements */
         .background-elements {
             position: absolute;
             width: 100%;
@@ -169,21 +188,64 @@
             left: 0;
             z-index: 0;
         }
+
+        /* Vector decoration from CSS file */
+        .vector-icon {
+            position: absolute;
+            height: 55.56%;
+            width: 96.19%;
+            top: 40.14%;
+            right: 3.81%;
+            bottom: 4.31%;
+            left: 0%;
+            max-width: 100%;
+            overflow: hidden;
+            max-height: 100%;
+            opacity: 0.1;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .header-59 {
+                padding: 0 20px;
+            }
+
+            .menu {
+                gap: 15px;
+            }
+
+            .main-content {
+                top: 20%;
+                left: 5%;
+                width: 90%;
+            }
+
+            .samura-harakiri {
+                font-size: 36px;
+            }
+
+            .product-image {
+                top: 55%;
+                right: 5%;
+                width: 90%;
+                height: 40%;
+            }
+        }
     </style>
 </head>
 <body>
     <div class="home-page">
         <header class="header-59">
             <div class="site-logo">
-                <span class="site">Site</span>
-                <span class="logo">Logo</span>
+                <span class="site">GK</span>
+                <span class="logo">Meal</span>
             </div>
 
             <nav class="menu">
-                <a href="#" class="about">About</a>
-                <a href="#" class="features">Features</a>
-                <a href="#" class="pricing">Pricing</a>
-                <a href="#" class="gallery">Gallery</a>
+                <a href="about.html" class="about">About</a>
+                <a href="menu.html" class="features">Menu List</a>
+                <a href="index.html" class="pricing">Home Page</a>
+                <a href="gallery.html" class="gallery">Gallery</a>
             </nav>
 
             <div class="icon-group">
@@ -193,29 +255,30 @@
                 <div class="icon-container">
                     <div class="icon-2">🛒</div>
                 </div>
-                <div class="icon-container">
+                <a href="profile.html" class="icon-container">
                     <div class="icon">👤</div>
-                </div>
+                </a>
             </div>
         </header>
 
         <div class="main-content">
-            <h1 class="samura-harakiri">Samura Harakiri</h1>
+            <h1 class="samura-harakiri">Eat, Code, Repeat</h1>
             <p class="product-description">
                 A lightweight and multifunctional universal knife is the most popular tool in the home and professional kitchen, used for cutting small vegetables and fruits, cheese, sausages.
             </p>
-            <div class="button-buy">
-                <span class="buy">Buy</span>
-            </div>
+            <a href="menu.html" class="button-buy">
+                <span class="buy">Order Now</span>
+            </a>
         </div>
 
         <div class="product-image">
             <!-- Placeholder for product image -->
-            <img src="/api/placeholder/400/320" alt="Samura Harakiri Knife" />
+            <img src="/api/placeholder/400/320" alt="Food Image" />
         </div>
 
         <div class="background-elements">
-            <!-- Stylized background elements would go here -->
+            <!-- Vector decoration -->
+            <div class="vector-icon"></div>
         </div>
     </div>
 </body>

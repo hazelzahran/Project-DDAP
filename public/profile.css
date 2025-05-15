@@ -1,0 +1,328 @@
+.profile,
+.profile * {
+    box-sizing: border-box;
+}
+
+.profile {
+    height: 800px;
+    position: relative;
+    overflow: hidden;
+}
+
+.header-59 {
+    position: absolute;
+    inset: 0;
+}
+
+.vector {
+    width: 112.15%;
+    height: 100%;
+    position: absolute;
+    right: -2.5%;
+    left: -9.65%;
+    bottom: 0%;
+    top: 0%;
+    overflow: visible;
+}
+
+.polygon-2 {
+    width: 203.49%;
+    height: 317.86%;
+    position: absolute;
+    right: -29.19%;
+    left: -74.3%;
+    bottom: -212.41%;
+    top: -5.45%;
+    overflow: visible;
+}
+
+.polygon-1 {
+    width: 144.39%;
+    height: 242.58%;
+    position: absolute;
+    right: 13.32%;
+    left: -57.71%;
+    bottom: -86.2%;
+    top: -56.38%;
+    overflow: visible;
+}
+
+.rectangle-14 {
+    width: 101.88%;
+    height: 11.63%;
+    position: absolute;
+    right: -103.06%;
+    left: 101.18%;
+    bottom: 76.75%;
+    top: 11.62%;
+    overflow: visible;
+}
+
+.button-buy {
+    width: 149px;
+    height: 49px;
+    position: static;
+}
+
+.vector2 {
+    width: 10.35%;
+    height: 6.12%;
+    position: absolute;
+    right: 63.54%;
+    left: 26.11%;
+    bottom: 78.25%;
+    top: 15.62%;
+    overflow: visible;
+}
+
+.vector3 {
+    width: 10.35%;
+    height: 6.12%;
+    position: absolute;
+    right: 63.54%;
+    left: 26.11%;
+    bottom: 78.25%;
+    top: 15.62%;
+    overflow: visible;
+}
+
+.buy {
+    color: #000000;
+    text-align: left;
+    font-family: 'Roboto-Regular', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    position: absolute;
+    right: 66.57%;
+    left: 29.19%;
+    width: 4.24%;
+    bottom: 80.25%;
+    top: 17.37%;
+    height: 2.38%;
+}
+
+.menu {
+    position: absolute;
+    inset: 0;
+}
+
+.about {
+    color: #000000;
+    text-align: left;
+    font-family: 'Roboto-Regular', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    position: absolute;
+    right: 65.07%;
+    left: 29.1%;
+    width: 5.83%;
+    bottom: 95%;
+    top: 2.62%;
+    height: 2.38%;
+}
+
+.features {
+    color: #000000;
+    text-align: left;
+    font-family: 'Roboto-Regular', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    position: absolute;
+    right: 58.26%;
+    left: 37.15%;
+    width: 4.58%;
+    bottom: 95%;
+    top: 2.62%;
+    height: 2.38%;
+}
+
+.pricing {
+    color: #000000;
+    text-align: left;
+    font-family: 'Roboto-Regular', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    position: absolute;
+    right: 51.11%;
+    left: 43.96%;
+    width: 4.93%;
+    bottom: 95%;
+    top: 2.62%;
+    height: 2.38%;
+}
+
+.gallery {
+    color: #000000;
+    text-align: left;
+    font-family: 'Roboto-Regular', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    position: absolute;
+    right: 45.42%;
+    left: 51.11%;
+    width: 3.47%;
+    bottom: 95%;
+    top: 2.62%;
+    height: 2.38%;
+}
+
+.icon-3 {
+    width: 1.11%;
+    height: 2.25%;
+    position: absolute;
+    right: 13.33%;
+    left: 85.56%;
+    bottom: 93.75%;
+    top: 4%;
+    overflow: visible;
+}
+
+.icon-2 {
+    width: 1.39%;
+    height: 3%;
+    position: absolute;
+    right: 7.29%;
+    left: 91.32%;
+    bottom: 93.38%;
+    top: 3.62%;
+    overflow: visible;
+}
+
+.icon {
+    width: 1.25%;
+    height: 1.51%;
+    position: absolute;
+    right: 1.46%;
+    left: 97.29%;
+    bottom: 94.12%;
+    top: 4.38%;
+    overflow: visible;
+}
+
+.ellipse-76 {
+    width: 2.78%;
+    height: 5%;
+    position: absolute;
+    right: 12.5%;
+    left: 84.72%;
+    bottom: 92.38%;
+    top: 2.62%;
+    overflow: visible;
+}
+
+.ellipse-75 {
+    width: 2.78%;
+    height: 5%;
+    position: absolute;
+    right: 6.6%;
+    left: 90.63%;
+    bottom: 92.38%;
+    top: 2.62%;
+    overflow: visible;
+}
+
+.ellipse-74 {
+    width: 2.78%;
+    height: 5%;
+    position: absolute;
+    right: 0.69%;
+    left: 96.53%;
+    bottom: 92.38%;
+    top: 2.62%;
+    overflow: visible;
+}
+
+.site-logo {
+    width: 114.42px;
+    height: 26px;
+    position: static;
+}
+
+.line-3 {
+    width: 0%;
+    height: 2%;
+    position: absolute;
+    right: 96.11%;
+    left: 3.89%;
+    bottom: 93.87%;
+    top: 4.13%;
+    overflow: visible;
+}
+
+.line-4 {
+    width: 0%;
+    height: 1.5%;
+    position: absolute;
+    right: 95.42%;
+    left: 4.58%;
+    bottom: 94.12%;
+    top: 4.38%;
+    overflow: visible;
+}
+
+.line-5 {
+    width: 0%;
+    height: 1%;
+    position: absolute;
+    right: 94.72%;
+    left: 5.28%;
+    bottom: 94.37%;
+    top: 4.63%;
+    overflow: visible;
+}
+
+.site-logo-2 {
+    width: 86.42px;
+    height: 26px;
+    position: static;
+}
+
+.logo {
+    color: #000000;
+    text-align: left;
+    font-family: 'Roboto-Regular', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    position: absolute;
+    right: 88.17%;
+    left: 8.36%;
+    width: 3.47%;
+    bottom: 93.44%;
+    top: 3.31%;
+    height: 3.25%;
+}
+
+.site {
+    color: #000000;
+    text-align: left;
+    font-family: 'Roboto-Regular', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    position: absolute;
+    right: 91.53%;
+    left: 5.83%;
+    width: 2.64%;
+    bottom: 93.44%;
+    top: 3.31%;
+    height: 3.25%;
+}
+
+.icon-32 {
+    width: 13.15%;
+    height: 3.02%;
+    position: absolute;
+    right: 1.36%;
+    left: 85.49%;
+    bottom: 93.34%;
+    top: 3.63%;
+    overflow: visible;
+}
+
+.user-profile-front-side {
+    width: 301.78px;
+    height: 301.78px;
+    position: absolute;
+    left: 48px;
+    top: 122px;
+    object-fit: cover;
+}
