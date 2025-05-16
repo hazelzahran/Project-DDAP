@@ -127,15 +127,15 @@ padding: 20px;
 }
 /* Circular Backgrounds */
 .menu-circles {
-position: absolute;
+position: fixed;
 width: 100%;
 height: 100%;
 z-index: -1;
 }
 .menu-circle {
-position: absolute;
-width: 859px;
-height: 910px;
+position: fixed;
+width: 1440px;
+height: 1440px;
 border-radius: 50%;
 border: 1px solid #fff;
 box-shadow: 30px 25px 4px rgba(0, 0, 0, 0.25);
