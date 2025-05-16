@@ -1,337 +1,241 @@
-.menu-child {
-  	position: absolute;
-  	top: -16px;
-  	left: -62px;
-  	width: 1524px;
-  	height: 844px;
-}
-.header-59-child {
-  	position: absolute;
-  	top: 133px;
-  	left: 548px;
-  	width: 387px;
-  	height: 133px;
-  	object-fit: cover;
-}
-.samura-harakiri {
-  	position: absolute;
-  	top: 37.32%;
-  	left: 40.18%;
-}
-.header-59-item {
-  	position: absolute;
-  	height: 9.1%;
-  	width: 2.74%;
-  	top: 0%;
-  	right: 0%;
-  	bottom: 90.9%;
-  	left: 97.26%;
-  	max-width: 100%;
-  	overflow: hidden;
-  	max-height: 100%;
-}
-.header-59-inner {
-  	position: absolute;
-  	height: 9.1%;
-  	width: 2.74%;
-  	top: 0%;
-  	right: 3.9%;
-  	bottom: 90.9%;
-  	left: 93.36%;
-  	max-width: 100%;
-  	overflow: hidden;
-  	max-height: 100%;
-}
-.ellipse-icon {
-  	position: absolute;
-  	height: 9.1%;
-  	width: 2.74%;
-  	top: 0%;
-  	right: 7.8%;
-  	bottom: 90.9%;
-  	left: 89.46%;
-  	max-width: 100%;
-  	overflow: hidden;
-  	max-height: 100%;
-  	cursor: pointer;
-}
-.icon {
-  	position: absolute;
-  	height: 2.75%;
-  	width: 1.23%;
-  	top: 3.19%;
-  	right: 0.75%;
-  	bottom: 94.06%;
-  	left: 98.02%;
-  	max-width: 100%;
-  	overflow: hidden;
-  	max-height: 100%;
-}
-.icon-2 {
-  	position: absolute;
-  	height: 5.46%;
-  	width: 1.37%;
-  	top: 1.82%;
-  	right: 4.59%;
-  	bottom: 92.72%;
-  	left: 94.05%;
-  	max-width: 100%;
-  	overflow: hidden;
-  	max-height: 100%;
-}
-.icon-3 {
-  	position: absolute;
-  	height: 4.1%;
-  	width: 1.1%;
-  	top: 2.5%;
-  	right: 8.62%;
-  	bottom: 93.4%;
-  	left: 90.28%;
-  	max-width: 100%;
-  	overflow: hidden;
-  	max-height: 100%;
-}
-.arrows-2-icon {
-  	position: absolute;
-  	height: 7.51%;
-  	width: 2.26%;
-  	top: 92.49%;
-  	right: 97.74%;
-  	bottom: 0%;
-  	left: 0%;
-  	max-width: 100%;
-  	overflow: hidden;
-  	max-height: 100%;
-}
-.header-59 {
-  	position: absolute;
-  	top: 0px;
-  	left: -31px;
-  	width: 1461px;
-  	height: 439.5px;
-  	font-family: Ribeye;
-}
-.images-2-1 {
-  	position: absolute;
-  	top: 567px;
-  	left: 400px;
-  	width: 167px;
-  	height: 167px;
-}
-.menu-item {
-  	position: absolute;
-  	top: 134px;
-  	left: 1478px;
-  	width: 348.9px;
-  	height: 309.2px;
-  	object-fit: contain;
-}
-.menu-inner {
-  	position: absolute;
-  	top: 474px;
-  	left: 1478px;
-  	width: 369.8px;
-  	height: 339.3px;
-  	object-fit: contain;
-}
-.ellipse-div {
-  	position: absolute;
-  	top: 0px;
-  	left: 740px;
-  	box-shadow: 30px 25px 4px rgba(0, 0, 0, 0.25), 30px 25px 4px rgba(0, 0, 0, 0.25), 30px 25px 4px rgba(0, 0, 0, 0.25);
-  	border-radius: 50%;
-  	background-color: #002c35;
-  	border: 1px solid #fff;
-  	box-sizing: border-box;
-  	width: 859px;
-  	height: 910px;
-}
-.group-icon {
-  	position: absolute;
-  	top: 556px;
-  	left: 1177px;
-  	width: 367px;
-  	height: 334.9px;
-  	object-fit: contain;
-}
-.menu-child1 {
-  	position: absolute;
-  	top: 0px;
-  	left: 485px;
-  	box-shadow: 30px 25px 4px rgba(0, 0, 0, 0.25), 30px 25px 4px rgba(0, 0, 0, 0.25), 30px 25px 4px rgba(0, 0, 0, 0.25);
-  	border-radius: 50%;
-  	background-color: #00313b;
-  	border: 1px solid #fff;
-  	box-sizing: border-box;
-  	width: 859px;
-  	height: 910px;
-}
-.menu-child2 {
-  	position: absolute;
-  	top: 338px;
-  	left: 1020px;
-  	width: 327.3px;
-  	height: 280.6px;
-  	object-fit: contain;
-}
-.menu-child3 {
-  	position: absolute;
-  	top: 0px;
-  	left: 234px;
-  	box-shadow: 30px 25px 4px rgba(0, 0, 0, 0.25), 30px 25px 4px rgba(0, 0, 0, 0.25), 30px 25px 4px rgba(0, 0, 0, 0.25);
-  	border-radius: 50%;
-  	background-color: #013f4c;
-  	border: 1px solid #fff;
-  	box-sizing: border-box;
-  	width: 859px;
-  	height: 910px;
-}
-.menu-child4 {
-  	position: absolute;
-  	top: 109px;
-  	left: 741px;
-  	width: 378.4px;
-  	height: 353.3px;
-  	object-fit: contain;
-}
-.menu-child5 {
-  	position: absolute;
-  	top: 548px;
-  	left: 681px;
-  	width: 367px;
-  	height: 334.9px;
-  	object-fit: contain;
-}
-.menu-child6 {
-  	position: absolute;
-  	top: 0px;
-  	left: 0px;
-  	box-shadow: 30px 25px 4px rgba(0, 0, 0, 0.25), 30px 25px 4px rgba(0, 0, 0, 0.25), 30px 25px 4px rgba(0, 0, 0, 0.25);
-  	border-radius: 50%;
-  	background-color: #005364;
-  	border: 1px solid #fff;
-  	box-sizing: border-box;
-  	width: 859px;
-  	height: 910px;
-}
-.about {
-  	position: absolute;
-  	top: 7.91%;
-  	left: 51.09%;
-  	-webkit-text-stroke: 1px #fff;
-  	cursor: pointer;
-}
-.features {
-  	position: absolute;
-  	top: 7.91%;
-  	left: 57.37%;
-  	-webkit-text-stroke: 1px #fff;
-  	cursor: pointer;
-}
-.pricing {
-  	position: absolute;
-  	top: 7.91%;
-  	left: 62.67%;
-  	-webkit-text-stroke: 1px #fff;
-}
-.gallery {
-  	position: absolute;
-  	top: 7.91%;
-  	left: 68.24%;
-  	-webkit-text-stroke: 1px #fff;
-  	cursor: pointer;
-}
-.menu1 {
-  	position: absolute;
-  	top: -55px;
-  	left: -408px;
-  	width: 1847.8px;
-  	height: 910px;
-  	font-size: 16px;
-}
-.star-icon {
-  	position: absolute;
-  	top: 277px;
-  	left: 384px;
-  	width: 22px;
-  	height: 30px;
-  	display: none;
-}
-.sitelogo-child {
-  	position: absolute;
-  	height: 61.54%;
-  	width: 3.5%;
-  	top: 24.92%;
-  	right: 96.5%;
-  	bottom: 13.54%;
-  	left: 0%;
-  	max-width: 100%;
-  	overflow: hidden;
-  	max-height: 100%;
-}
-.sitelogo-item {
-  	position: absolute;
-  	height: 46.15%;
-  	width: 3.5%;
-  	top: 32.62%;
-  	right: 87.76%;
-  	bottom: 21.23%;
-  	left: 8.74%;
-  	max-width: 100%;
-  	overflow: hidden;
-  	max-height: 100%;
-}
-.sitelogo-inner {
-  	position: absolute;
-  	height: 30.77%;
-  	width: 3.5%;
-  	top: 40.31%;
-  	right: 79.02%;
-  	bottom: 28.92%;
-  	left: 17.48%;
-  	max-width: 100%;
-  	overflow: hidden;
-  	max-height: 100%;
-}
-.logo {
-  	position: absolute;
-  	top: 0%;
-  	left: 42.15%;
-}
-.site {
-  	position: absolute;
-  	top: 0%;
-  	left: 0%;
-}
-.sitelogo-2 {
-  	position: absolute;
-  	height: 100%;
-  	width: 75.52%;
-  	top: 0%;
-  	right: 0%;
-  	bottom: 0%;
-  	left: 24.48%;
-}
-.sitelogo {
-  	position: absolute;
-  	height: 3.25%;
-  	width: 7.94%;
-  	top: 1.25%;
-  	right: 89.49%;
-  	bottom: 95.5%;
-  	left: 2.57%;
-  	cursor: pointer;
-  	font-size: 22px;
-  	color: #fff;
-}
-.menu {
-  	width: 100%;
-  	position: relative;
-  	height: 800px;
-  	overflow: hidden;
-  	text-align: left;
-  	font-size: 52px;
-  	color: #000;
-  	font-family: Roboto;
+/* menu.css */
+
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
 }
 
+body {
+font-family: 'Roboto', sans-serif;
+overflow-x: hidden;
+position: relative;
+color: #000;
+background-color: #f5f5f5;
+}
+.container {
+width: 100%;
+min-height: 100vh;
+position: relative;
+overflow: hidden;
+}
+/* Header Styles */
+.header {
+position: relative;
+width: 100%;
+height: 80px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0 40px;
+z-index: 10;
+background-color: #005364;
+}
+/* Logo Styles */
+.logo-container {
+display: flex;
+align-items: center;
+cursor: pointer;
+position: relative;
+height: 40px;
+}
+.logo-line {
+position: absolute;
+background-color: #fff;
+}
+.logo-line-1 {
+height: 24px;
+width: 2px;
+left: 0;
+}
+.logo-line-2 {
+height: 18px;
+width: 2px;
+left: 8px;
+}
+.logo-line-3 {
+height: 12px;
+width: 2px;
+left: 16px;
+}
+.logo-text {
+display: flex;
+margin-left: 30px;
+font-size: 22px;
+color: #fff;
+}
+/* Navigation Menu */
+.main-nav {
+display: flex;
+align-items: center;
+}
+.main-nav ul {
+display: flex;
+list-style: none;
+}
+.main-nav ul li {
+margin: 0 15px;
+}
+.main-nav ul li a {
+color: #fff;
+text-decoration: none;
+font-size: 16px;
+transition: all 0.3s ease;
+}
+.main-nav ul li a:hover,
+.main-nav ul li a.active {
+color: #e0e0e0;
+}
+/* Banner Section */
+.banner-section {
+position: relative;
+width: 100%;
+height: 360px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 40px;
+}
+.banner-content {
+position: relative;
+text-align: center;
+}
+.banner-image {
+width: 387px;
+height: 133px;
+object-fit: cover;
+}
+.banner-title {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-family: 'Itim', cursive;
+font-size: 52px;
+color: #000;
+}
+/* Menu Content Section */
+.menu-content {
+position: relative;
+width: 100%;
+height: 800px;
+overflow: hidden;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+padding: 20px;
+}
+/* Circular Backgrounds */
+.menu-circles {
+position: absolute;
+width: 100%;
+height: 100%;
+z-index: -1;
+}
+.menu-circle {
+position: absolute;
+width: 859px;
+height: 910px;
+border-radius: 50%;
+border: 1px solid #fff;
+box-shadow: 30px 25px 4px rgba(0, 0, 0, 0.25);
+}
+.circle-1 {
+top: 0;
+left: 0;
+background-color: #005364;
+}
+.circle-2 {
+top: 0;
+left: 234px;
+background-color: #013f4c;
+}
+.circle-3 {
+top: 0;
+left: 485px;
+background-color: #00313b;
+}
+.circle-4 {
+top: 0;
+left: 740px;
+background-color: #002c35;
+}
+/* Menu Items */
+.menu-item {
+position: relative;
+margin: 15px;
+z-index: 2;
+}
+.menu-item img {
+width: 100%;
+max-width: 350px;
+height: auto;
+object-fit: contain;
+transition: transform 0.3s ease;
+}
+.menu-item img:hover {
+transform: scale(1.05);
+}
+/* Footer */
+.footer {
+position: relative;
+width: 100%;
+padding: 20px;
+background-color: #005364;
+color: #fff;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.social-icons {
+display: flex;
+}
+.social-icon-circle {
+width: 30px;
+height: 30px;
+border-radius: 50%;
+background-color: transparent;
+margin-left: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+border: 1px solid #fff;
+}
+.social-icon {
+width: 15px;
+height: 15px;
+color: #fff;
+}
+/* Responsive adjustments */
+@media screen and (max-width: 1200px) {
+.menu-circle {
+transform: scale(0.8);
+}
+.menu-content {
+    height: auto;
+}
+}
+@media screen and (max-width: 768px) {
+.header {
+flex-direction: column;
+height: auto;
+padding: 20px;
+}
+.main-nav {
+    margin: 20px 0;
+}
+
+.main-nav ul {
+    flex-direction: column;
+    text-align: center;
+}
+
+.main-nav ul li {
+    margin: 10px 0;
+}
+
+.banner-title {
+    font-size: 36px;
+}
+}
