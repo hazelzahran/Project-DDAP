@@ -4,181 +4,59 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NgeMEAL - About Us</title>
-    <link rel="stylesheet" href="../css/about.css">
+    <!-- Import CSS -->
+    <link rel="stylesheet" href="../assets/css/global.css">
+    <link rel="stylesheet" href="../assets/css/pages/about.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Itim:wght@400&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <nav class="navbar">
-                <div class="logo">
-                    <div class="hamburger-lines">
-                        <span class="line"></span>
-                        <span class="line"></span>
-                        <span class="line"></span>
-                    </div>
-                    <span class="logo-text">NgeMEAL</span>
+    <!-- Header Container -->
+    <div id="header-container"></div>
+    
+    <!-- Main Content -->
+    <div class="about-us">
+        <div class="overlap-group-wrapper">
+            <div class="overlap-group">
+                <div class="about"><div class="text-wrapper">"Eat, Code, Repeat."</div></div>
+                <img class="about" src="img/rectangle-13.svg" />
+                <div class="a-lightweight-and"><div class="div">GKMeal.id</div></div>
+                <img class="rectangle" src="img/rectangle-24.svg" />
+                <img class="ellipse" src="img/ellipse-74.svg" />
+                <img class="img" src="img/ellipse-75.svg" />
+                <img class="ellipse-2" src="img/ellipse-76.svg" />
+                <div class="rectangle-2"></div>
+                <div class="icon">
+                    <img class="vector" src="img/vector-4.svg" />
+                    <img class="vector-2" src="img/vector-5.svg" />
+                    <img class="icon-2" src="img/icon-2.png" />
+                    <img class="icon-3" src="img/icon.png" />
                 </div>
-                <div class="nav-links">
-                    <a href="index.html">Home Page</a>
-                    <a href="about.html" class="active">About Us</a>
-                    <a href="menu.html">Menu List</a>
-                    <a href="gallery.html">Gallery</a>
-                </div>
-                <div class="social-icons">
-                    <div class="social-icon">
-                        <i class="fab fa-facebook-f"></i>
-                    </div>
-                    <div class="social-icon">
-                        <i class="fab fa-instagram"></i>
-                    </div>
-                    <div class="social-icon">
-                        <i class="fab fa-twitter"></i>
-                    </div>
-                </div>
-            </nav>
-        </div>
-    </header>
-
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="container hero-container">
-            <div class="hero-content">
-                <h1 class="hero-tagline">"Eat, Code, Repeat."</h1>
-                <p class="hero-description">
-                    At NgeMEAL, we're passionate about creating delicious, healthy meals designed specifically for busy developers and tech professionals. Our dishes are crafted to provide the perfect balance of nutrition, energy, and taste to fuel your coding sessions.
-                </p>
-                <a href="menu.html" class="btn">Explore Our Menu</a>
-            </div>
-            <div class="hero-image">
-                <img src="/api/placeholder/500/400" alt="Delicious food for developers">
+                <!-- Hapus navbar asli karena kita menggunakan header terpisah -->
+                <img class="rectangle-3" src="img/rectangle-1.png" />
             </div>
         </div>
-        <div class="shape shape-1"></div>
-        <div class="shape shape-2"></div>
-    </section>
-
-    <!-- About Section -->
-    <section class="about-section">
-        <div class="container">
-            <h2 class="section-title">About NgeMEAL</h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <p>
-                        Founded in 2023, NgeMEAL was created by a group of food-loving software developers who were tired of unhealthy takeout options during long coding sessions. We understand the unique challenges of maintaining a healthy diet while meeting tight deadlines and solving complex problems.
-                    </p>
-                    <p>
-                        Our menu is designed with both nutrition and flavor in mind. We source local, fresh ingredients and prepare dishes that provide balanced macronutrients to keep your brain sharp and your energy levels stable throughout the day.
-                    </p>
-                    <p>
-                        Whether you're a solo developer working from home, or part of a large tech team in an office, NgeMEAL has flexible options to fit your schedule and dietary preferences. Our goal is simple: to fuel great code with great food.
-                    </p>
-                </div>
-                <div class="about-features">
-                    <div class="feature">
-                        <div class="feature-icon">
-                            <i class="fas fa-brain"></i>
-                        </div>
-                        <div class="feature-text">
-                            <h3>Brain Food</h3>
-                            <p>Our meals are rich in omega-3s, antioxidants, and other nutrients that enhance cognitive function.</p>
-                        </div>
-                    </div>
-                    <div class="feature">
-                        <div class="feature-icon">
-                            <i class="fas fa-clock"></i>
-                        </div>
-                        <div class="feature-text">
-                            <h3>Timely Delivery</h3>
-                            <p>Schedule your meals ahead of time, and we'll deliver exactly when you need a break from coding.</p>
-                        </div>
-                    </div>
-                    <div class="feature">
-                        <div class="feature-icon">
-                            <i class="fas fa-leaf"></i>
-                        </div>
-                        <div class="feature-text">
-                            <h3>Eco-Friendly</h3>
-                            <p>All of our packaging is biodegradable, supporting sustainable practices in our community.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- CTA Section -->
-    <section class="cta-section">
-        <div class="container">
-            <h2 class="cta-title">Ready to Fuel Your Code?</h2>
-            <p class="cta-text">
-                Join hundreds of other developers who have improved their productivity and well-being with NgeMEAL's specialized menu. Sign up today for a free consultation with our nutrition specialist.
-            </p>
-            <a href="#" class="btn">Get Started</a>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <div class="container footer-container">
-            <div class="footer-about">
-                <div class="footer-logo">NgeMEAL</div>
-                <p>
-                    Delicious, nutritious meals designed specifically for developers and tech professionals. Fuel your code with quality food.
-                </p>
-                <div class="social-icons">
-                    <div class="social-icon">
-                        <i class="fab fa-facebook-f"></i>
-                    </div>
-                    <div class="social-icon">
-                        <i class="fab fa-instagram"></i>
-                    </div>
-                    <div class="social-icon">
-                        <i class="fab fa-twitter"></i>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-links">
-                <h3 class="footer-heading">Quick Links</h3>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="menu.html">Menu</a></li>
-                    <li><a href="gallery.html">Gallery</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </div>
-            <div class="footer-contact">
-                <h3 class="footer-heading">Contact Us</h3>
-                <div class="contact-info">
-                    <i class="fas fa-map-marker-alt"></i>
-                    <span>123 Tech Valley, Innovation City</span>
-                </div>
-                <div class="contact-info">
-                    <i class="fas fa-phone"></i>
-                    <span>+123 456 7890</span>
-                </div>
-                <div class="contact-info">
-                    <i class="fas fa-envelope"></i>
-                    <span>info@ngemeal.com</span>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="copyright">
-                &copy; 2025 NgeMEAL. All rights reserved.
-            </div>
-        </div>
-    </footer>
-
+    </div>
+    
+    <!-- Script untuk memuat header -->
     <script>
-        // Mobile menu functionality
-        document.querySelector('.hamburger-lines').addEventListener('click', function() {
-            const navLinks = document.querySelector('.nav-links');
-            navLinks.style.display = navLinks.style.display === 'flex' ? 'none' : 'flex';
+        document.addEventListener('DOMContentLoaded', function() {
+            fetch('../components/header.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('header-container').innerHTML = data;
+                    
+                    // Script untuk menandai halaman aktif
+                    const currentPage = window.location.pathname.split('/').pop();
+                    const navLinks = document.querySelectorAll('.menu a');
+                    
+                    navLinks.forEach(link => {
+                        if (link.getAttribute('href') === currentPage) {
+                            link.classList.add('active');
+                        }
+                    });
+                });
         });
     </script>
 </body>
