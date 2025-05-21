@@ -126,6 +126,7 @@
         .product-description {
             font-size: 18px;
             font-weight: 400;
+            text-align: justify;
             color: #333;
             line-height: 1.6;
             margin-bottom: 40px;
