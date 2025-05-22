@@ -21,31 +21,31 @@ const MenuPage: React.FC = () => {
       id: 1, 
       name: "STORE 1", 
       description: "Toko premium kami dengan koleksi lengkap peralatan dapur kualitas terbaik", 
-      image: "/lovable-uploads/4c956da1-19b8-4276-a991-28eb88361a04.png" 
+      image: "/Image-Upload/4c956da1-19b8-4276-a991-28eb88361a04.png" 
     },
     { 
       id: 2, 
       name: "STORE 2", 
       description: "Outlet yang menyediakan berbagai jenis pisau dan peralatan memotong", 
-      image: "/lovable-uploads/4c956da1-19b8-4276-a991-28eb88361a04.png" 
+      image: "/Image-Upload/4c956da1-19b8-4276-a991-28eb88361a04.png" 
     },
     { 
       id: 3, 
       name: "STORE 3", 
       description: "Gerai utama dengan area demo memasak dan konsultasi chef", 
-      image: "/lovable-uploads/4c956da1-19b8-4276-a991-28eb88361a04.png" 
+      image: "/Image-Upload/4c956da1-19b8-4276-a991-28eb88361a04.png" 
     },
     { 
       id: 4, 
       name: "STORE 4", 
       description: "Toko khusus alat dapur modern dan teknologi memasak terkini", 
-      image: "/lovable-uploads/4c956da1-19b8-4276-a991-28eb88361a04.png" 
+      image: "/Image-Upload/4c956da1-19b8-4276-a991-28eb88361a04.png" 
     },
     { 
       id: 5, 
       name: "STORE 5", 
       description: "Outlet premium dengan layanan khusus dan produk eksklusif", 
-      image: "/lovable-uploads/4c956da1-19b8-4276-a991-28eb88361a04.png" 
+      image: "/Image-Upload/4c956da1-19b8-4276-a991-28eb88361a04.png" 
     }
   ];
 
