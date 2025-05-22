@@ -24,7 +24,7 @@ const StorePage: React.FC = () => {
     "1": {
       id: 1,
       name: "STORE 1",
-      image: "/lovable-uploads/4c956da1-19b8-4276-a991-28eb88361a04.png",
+      image: "/Image-Upload/png/4c956da1-19b8-4276-a991-28eb88361a04.png",
       description: "Toko premium kami dengan koleksi lengkap peralatan dapur kualitas terbaik.",
       address: "Jl. Pahlawan No. 123, Jakarta",
       phone: "+62 123-456-7890",
@@ -33,7 +33,7 @@ const StorePage: React.FC = () => {
     "2": {
       id: 2,
       name: "STORE 2",
-      image: "/lovable-uploads/4c956da1-19b8-4276-a991-28eb88361a04.png",
+      image: "/Image-Upload/png/4c956da1-19b8-4276-a991-28eb88361a04.png",
       description: "Outlet yang menyediakan berbagai jenis pisau dan peralatan memotong.",
       address: "Jl. Sudirman No. 45, Bandung",
       phone: "+62 123-456-7891",
@@ -42,7 +42,7 @@ const StorePage: React.FC = () => {
     "3": {
       id: 3,
       name: "STORE 3",
-      image: "/lovable-uploads/4c956da1-19b8-4276-a991-28eb88361a04.png",
+      image: "/Image-Upload/png/4c956da1-19b8-4276-a991-28eb88361a04.png",
       description: "Gerai utama dengan area demo memasak dan konsultasi chef.",
       address: "Jl. Gajah Mada No. 67, Surabaya",
       phone: "+62 123-456-7892",
@@ -51,7 +51,7 @@ const StorePage: React.FC = () => {
     "4": {
       id: 4,
       name: "STORE 4",
-      image: "/lovable-uploads/4c956da1-19b8-4276-a991-28eb88361a04.png",
+      image: "/Image-Upload/png/4c956da1-19b8-4276-a991-28eb88361a04.png",
       description: "Toko khusus alat dapur modern dan teknologi memasak terkini.",
       address: "Jl. Diponegoro No. 89, Semarang",
       phone: "+62 123-456-7893",
@@ -60,7 +60,7 @@ const StorePage: React.FC = () => {
     "5": {
       id: 5,
       name: "STORE 5",
-      image: "/lovable-uploads/4c956da1-19b8-4276-a991-28eb88361a04.png",
+      image: "/Image-Upload/png/4c956da1-19b8-4276-a991-28eb88361a04.png",
       description: "Outlet premium dengan layanan khusus dan produk eksklusif.",
       address: "Jl. Ahmad Yani No. 34, Medan",
       phone: "+62 123-456-7894",
