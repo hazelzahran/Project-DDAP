@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Link, useLocation } from 'react-router-dom';
@@ -16,10 +15,13 @@ const Navbar: React.FC = () => {
     <nav className="py-4 px-6 md:px-10 w-full">
       <div className="flex items-center justify-between">
         <div className="flex items-center">
-          <div className="flex mr-2">
-            <div className="h-4 w-2 bg-red-500 rounded-sm mr-0.5"></div>
-            <div className="h-4 w-2 bg-blue-500 rounded-sm mr-0.5"></div>
-            <div className="h-4 w-2 bg-green-500 rounded-sm"></div>
+          {/* New Logo */}
+          <div className="mr-3">
+            <img 
+              src="/public/Image-Upload/png/logo.png" 
+              alt="GKMeal Logo" 
+              className="h-10 w-10 object-contain"
+            />
           </div>
           <Link to="/" className="text-lg md:text-xl font-bold font-display text-foreground">
             GKMeal
