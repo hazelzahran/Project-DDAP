@@ -22,7 +22,7 @@ const Navbar: React.FC = () => {
             <div className="h-4 w-2 bg-green-500 rounded-sm"></div>
           </div>
           <Link to="/" className="text-lg md:text-xl font-bold font-display text-foreground">
-            SiteLogo
+            GKMeal
           </Link>
         </div>
 

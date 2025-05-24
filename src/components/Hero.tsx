@@ -11,9 +11,7 @@ const Hero: React.FC = () => {
             "Eat, Code, Repeat"
           </h1>
           <p className="text-lg md:max-w-md mb-8 text-foreground/90">
-            A lightweight and multifunctional universal knife is the most
-            popular tool in the home and professional kitchen, used for
-            cutting small vegetables and fruits, cheese, sausages
+            A passionate coder fueled by snacks and curiosity. Building digital wonders one line at a time — then grabbing a bite and doing it all over again.
           </p>
           <Button 
             variant="outline" 

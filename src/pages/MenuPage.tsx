@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import Navbar from '@/components/Navbar';
@@ -49,78 +48,41 @@ const MenuPage: React.FC = () => {
     }
   ];
 
-  // Pre-defined positions for each store card with proper typing
-  const positions: PositionStyle[] = [
-    { top: '5%', left: '30%', rotate: '-15deg' },    // Store 1 - top left
-    { top: '60%', left: '5%', rotate: '15deg' },     // Store 2 - bottom left
-    { top: '40%', left: '40%', rotate: '0deg' },     // Store 3 - center
-    { top: '70%', right: '20%', rotate: '-10deg' },  // Store 4 - bottom right
-    { top: '15%', right: '5%', rotate: '10deg' },    // Store 5 - top right
-  ];
-
-  // Mobile layout will use a simple grid
-  const isMobile = () => window.innerWidth < 768;
-
   return (
-    <div className="min-h-screen gradient-background">
-      <Navbar />
-      <div className="container mx-auto px-4 py-8 md:py-16 relative">
-        <h1 className="text-4xl md:text-5xl font-bold mb-8 text-foreground font-display">Our Stores</h1>
+    <div 
+      className="min-h-screen relative"
+      style={{
+        backgroundImage: 'url(/Image-Upload/png/Menu.png)',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+        backgroundAttachment: 'fixed'
+      }}
+    >
+      {/* Overlay for better readability */}
+      <div className="absolute inset-0 bg-black/30 backdrop-blur-sm"></div>
+      
+      <div className="relative z-10">
+        <Navbar />
         
-        {/* Mobile view - grid layout */}
-        <div className="md:hidden grid grid-cols-1 sm:grid-cols-2 gap-4">
-          {stores.map((store) => (
-            <div 
-              key={store.id}
-              className="bg-white/20 backdrop-blur-md rounded-lg overflow-hidden shadow-lg cursor-pointer transform transition-all hover:scale-105"
-              onClick={() => navigate(`/store/${store.id}`)}
-            >
-              <div className="p-2 bg-white/30 font-bold text-lg font-display">
-                {store.name}
-              </div>
-              <div className="h-40 overflow-hidden">
-                {store.image ? (
-                  <img 
-                    src={store.image} 
-                    alt={store.name} 
-                    className="w-full h-full object-cover"
-                  />
-                ) : (
-                  <div className="w-full h-full flex items-center justify-center bg-black/10">
-                    <Store className="h-12 w-12 text-white/70" />
-                  </div>
-                )}
-              </div>
-            </div>
-          ))}
-        </div>
-        
-        {/* Desktop view - circular layout */}
-        <div className="hidden md:block relative w-full aspect-square max-w-5xl mx-auto">
-          {/* Central circle background */}
-          <div className="absolute inset-[15%] rounded-full bg-teal-dark/80 backdrop-blur-sm z-0"></div>
+        <div className="container mx-auto px-4 py-8 md:py-16">
+          <h1 className="text-4xl md:text-5xl font-bold mb-12 text-white text-center font-display drop-shadow-lg">
+            Our Stores
+          </h1>
           
-          {/* Store items positioned around the circle */}
-          {stores.map((store, index) => {
-            const position = positions[index] || {};
-            
-            return (
+          {/* Mobile view - Vertical stack */}
+          <div className="md:hidden space-y-6">
+            {stores.map((store) => (
               <div 
                 key={store.id}
-                style={{
-                  ...position,
-                  transform: position.rotate ? `rotate(${position.rotate})` : undefined,
-                  position: 'absolute',
-                  zIndex: 10,
-                  width: '30%',
-                }}
-                className="bg-white rounded-md shadow-xl overflow-hidden cursor-pointer transition-all hover:shadow-2xl hover:scale-105"
+                className="bg-white/90 backdrop-blur-md rounded-xl overflow-hidden shadow-xl cursor-pointer transform transition-all hover:scale-[1.02] hover:shadow-2xl"
                 onClick={() => navigate(`/store/${store.id}`)}
               >
-                <div className="p-2 bg-white text-black text-center font-bold text-xl font-display">
-                  {store.name}
+                <div className="p-4 bg-gradient-to-r from-teal-600 to-teal-800 text-white">
+                  <h3 className="font-bold text-xl font-display">{store.name}</h3>
+                  <p className="text-sm opacity-90 mt-1">{store.description}</p>
                 </div>
-                <div className="h-40 relative">
+                <div className="h-48 overflow-hidden">
                   {store.image ? (
                     <img 
                       src={store.image} 
@@ -134,8 +96,49 @@ const MenuPage: React.FC = () => {
                   )}
                 </div>
               </div>
-            );
-          })}
+            ))}
+          </div>
+          
+          {/* Desktop view - Grid layout yang rapi */}
+          <div className="hidden md:grid grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            {stores.map((store) => (
+              <div 
+                key={store.id}
+                className="bg-white/95 backdrop-blur-md rounded-2xl overflow-hidden shadow-2xl cursor-pointer transform transition-all duration-300 hover:scale-105 hover:shadow-3xl hover:bg-white group"
+                onClick={() => navigate(`/store/${store.id}`)}
+              >
+                <div className="relative">
+                  <div className="h-56 overflow-hidden">
+                    {store.image ? (
+                      <img 
+                        src={store.image} 
+                        alt={store.name} 
+                        className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+                      />
+                    ) : (
+                      <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-gray-100 to-gray-200">
+                        <Store className="h-16 w-16 text-gray-400" />
+                      </div>
+                    )}
+                  </div>
+                  <div className="absolute top-4 left-4 bg-teal-600 text-white px-3 py-1 rounded-full font-bold text-sm">
+                    {store.name}
+                  </div>
+                </div>
+                <div className="p-6">
+                  <p className="text-gray-700 text-sm leading-relaxed">
+                    {store.description}
+                  </p>
+                  <div className="mt-4 flex items-center text-teal-600 font-semibold text-sm group-hover:text-teal-800 transition-colors">
+                    <span>Kunjungi Store</span>
+                    <svg className="ml-2 w-4 h-4 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </div>
