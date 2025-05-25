@@ -1,5 +1,5 @@
-
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 
 const Hero: React.FC = () => {
@@ -13,13 +13,18 @@ const Hero: React.FC = () => {
           <p className="text-lg md:max-w-md mb-8 text-foreground/90">
             A passionate coder fueled by snacks and curiosity. Building digital wonders one line at a time — then grabbing a bite and doing it all over again.
           </p>
-          <Button 
-            variant="outline" 
-            className="border-2 border-foreground bg-transparent text-foreground hover:bg-foreground hover:text-background transition-all duration-300 rounded-md py-6 px-8 text-lg"
-          >
-            Buy now
-          </Button>
+
+          {/* Wrap the Button in a Link to "/menu" */}
+          <Link to="/food-list">
+            <Button
+              variant="outline"
+              className="border-2 border-foreground bg-transparent text-foreground hover:bg-foreground hover:text-background transition-all duration-300 rounded-md py-6 px-8 text-lg"
+            >
+              Buy now
+            </Button>
+          </Link>
         </div>
+
         <div className="w-full md:w-1/2 relative hidden md:flex justify-end items-center">
           <div className="triangle animate-float"></div>
         </div>
