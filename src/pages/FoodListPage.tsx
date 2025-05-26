@@ -33,7 +33,7 @@ const FoodListPage = () => {
       description: "Onigiri Nenek Sumi dari Kampung Jambu, dibentuk dengan doa dan cinta. Nasi kepal isi tuna pedas, dibungkus nori, konon resepnya dari leluhur pelaut, kini hadir di kantin ini.",
       price: "Rp7.000",
       priceNumber: 7000,
-      image: "/Image-Upload/png/image 139.png",
+      image: "../public/Image-Upload/png/image 139.png",
       category: "food",
       restaurantId: 1
     },
@@ -43,7 +43,7 @@ const FoodListPage = () => {
       description: "Mie Lidi Kang Udin dari Gang Mawar, camilan renyah yang tercipta dari eksperimen malam di warung kecil. Mie tipis digoreng krispi dengan taburan bumbu pedas manis, kini jadi favorit di kantin ini.",
       price: "Rp10.000",
       priceNumber: 10000,
-      image: "/Image-Upload/png/image 141.png",
+      image: "../public/Image-Upload/png/image 141.png",
       category: "food",
       restaurantId: 1
     },
@@ -53,7 +53,7 @@ const FoodListPage = () => {
       description: "Tahu isi goreng adalah camilan berbahan dasar tahu yang diisi sayuran, lalu dibalut adonan tepung dan digoreng hingga renyah.",
       price: "Rp5.000",
       priceNumber: 5000,
-      image: "/Image-Upload/png/image 149.png",
+      image: "../public/Image-Upload/png/image 149.png",
       category: "food",
       restaurantId: 1
     },
@@ -63,7 +63,7 @@ const FoodListPage = () => {
       description: "Sushi adalah makanan Jepang yang terdiri dari nasi yang dibentuk bersama lauk (neta) berupa makanan laut, daging, sayuran mentah atau sudah dimasak.",
       price: "Rp15.000",
       priceNumber: 15000,
-      image: "/Image-Upload/png/image 138.png",
+      image: "../public/Image-Upload/png/image 138.png",
       category: "food",
       restaurantId: 1
     },
@@ -73,7 +73,7 @@ const FoodListPage = () => {
       description: "Air Mineral Mbok Darmi dari Kampung Cempaka, kesegaran murni dari mata air desa. Dibotolkan dengan tangan penuh doa sejak zaman krisis air, kini hadir menyejukkan di kantin ini.",
       price: "Rp3.000",
       priceNumber: 3000,
-      image: "/Image-Upload/png/image 146.png",
+      image: "../public/Image-Upload/png/image 146.png",
       category: "drink",
       restaurantId: 2
     },
@@ -83,7 +83,7 @@ const FoodListPage = () => {
       description: "Iced Tea Pak Tarmo dari Jalan Wijaya, racikan legenda yang lahir dari warung pinggir sawah. Teh hitam segar dicampur gula asli dan es batu, menyegarkan jiwa sejak tiga dekade, kini ada di kantin ini.",
       price: "Rp5.000",
       priceNumber: 5000,
-      image: "/Image-Upload/png/Screenshot 2025-04-10 152100 2.png",
+      image: "../public/Image-Upload/png/Screenshot 2025-04-10 152100 2.png",
       category: "drink",
       restaurantId: 2
     },
@@ -93,7 +93,7 @@ const FoodListPage = () => {
       description: "Pop Ice Taro Juragan Muda dari Pasar Lama, minuman serbuk legendaris yang lahir dari kios kecil di tepi gang. Rasa talas manis nan creamy, diblender dengan es hingga menyegarkan, kini jadi andalan di kantin ini.",
       price: "Rp10.000",
       priceNumber: 10000,
-      image: "/Image-Upload/png/Screenshot 2025-04-10 152119 2.png",
+      image: "../public/Image-Upload/png/Screenshot 2025-04-10 152119 2.png",
       category: "drink",
       restaurantId: 2
     },
@@ -103,7 +103,7 @@ const FoodListPage = () => {
       description: "Ice Coffee Mbah Joyo dari Kampung Duren, racikan kopi dingin yang tercipta dari biji pilihan pasar tradisional. Kopi hitam pekat dicampur es dan sedikit gula aren, menyegarkan sejak zaman kakek buyut, kini hadir di kantin ini.",
       price: "Rp10.000",
       priceNumber: 10000,
-      image: "/Image-Upload/png/Screenshot 2025-04-10 153828 2.png",
+      image: "../public/Image-Upload/png/Screenshot 2025-04-10 153828 2.png",
       category: "drink",
       restaurantId: 2
     },
@@ -113,7 +113,7 @@ const FoodListPage = () => {
       description: "Nasi ayam crispy, nasi hangat dengan ayam goreng renyah berbumbu gurih. Lezat, mengenyangkan, dan pas untuk temani kegiatan kuliahmu!",
       price: "Rp15.000",
       priceNumber: 15000,
-      image: "/Image-Upload/png/image 153.png",
+      image: "../public/Image-Upload/pngimage 153.png",
       category: "food",
       restaurantId: 3
     },
@@ -123,7 +123,7 @@ const FoodListPage = () => {
       description: "Nasi jamur crispy, nasi hangat dengan jamur goreng renyah berbumbu gurih. Lezat, sehat, dan mengenyangkan!",
       price: "Rp12.000",
       priceNumber: 12000,
-      image: "/Image-Upload/png/image 154.png",
+      image: "../public/Image-Upload/png/image 154.png",
       category: "food",
       restaurantId: 3
     },
@@ -133,7 +133,7 @@ const FoodListPage = () => {
       description: "Indomie Goreng Bu Tuti dari Pasar Rebo, legenda mie instan yang diracik dengan bumbu rahasia sejak zaman warung kelontong. Mie kenyal dipadu telur, kol, dan sambal pedas, kini menggugah selera di kantin ini.",
       price: "Rp7.000",
       priceNumber: 7000,
-      image: "/Image-Upload/png/image 151.png",
+      image: "../public/Image-Upload/png/image 151.png",
       category: "food",
       restaurantId: 4
     },
@@ -143,7 +143,7 @@ const FoodListPage = () => {
       description: "Lagi butuh yang hangat dan mengenyangkan? Indomie Kuah jawabannya! Mi lembut dengan kuah gurih yang bikin nyaman di tengah padatnya kuliah. Tambah telur atau sayur biar makin mantap.",
       price: "Rp7.000",
       priceNumber: 7000,
-      image: "/Image-Upload/png/image 155.png",
+      image: "../public/Image-Upload/png/image 155.png",
       category: "food",
       restaurantId: 4
     },
@@ -173,7 +173,7 @@ const FoodListPage = () => {
       description: "Martabak manis mini adalah kue berbentuk kecil dengan tekstur lembut dan empuk, biasanya diisi cokelat, keju, atau kacang, lalu dilipat dan disajikan sebagai camilan manis.",
       price: "Rp8.000",
       priceNumber: 8000,
-      image: "/Image-Upload/png/image 166.png",
+      image: "../public/Image-Upload/png/image 166.png",
       category: "food",
       restaurantId: 1
     }

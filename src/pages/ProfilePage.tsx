@@ -18,11 +18,12 @@ const ProfilePage: React.FC = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Profile image */}
             <div className="flex flex-col items-center">
-              <div className="w-[300px] h-[300px] bg-black/20 rounded-md overflow-hidden">
+              <div className="w-[300px] h-[300px] bg-black/20 rounded-lg overflow-hidden">
                 <img 
-                  src="https://images.unsplash.com/photo-1649972904349-6e44c42644a7?auto=format&fit=crop&w=800" 
+                  src="../public/image-Upload/jpg/Profile.JPG" 
                   alt="User Profile" 
                   className="w-full h-full object-cover"
+                  
                 />
               </div>
               
@@ -41,7 +42,7 @@ const ProfilePage: React.FC = () => {
                 <div>
                   <label className="text-black text-base font-normal mb-2 block">Nama:</label>
                   <div className="w-full md:w-[419px] h-[49px] bg-white border border-black flex items-center">
-                    <span className="px-4 text-black text-base">Booming Raka</span>
+                    <span className="px-4 text-black text-base">GOPA GOPI</span>
                   </div>
                 </div>
                 
@@ -55,7 +56,7 @@ const ProfilePage: React.FC = () => {
                 <div>
                   <label className="text-black text-base font-normal mb-2 block">Email:</label>
                   <div className="w-full md:w-[419px] h-[49px] bg-white border border-black flex items-center">
-                    <span className="px-4 text-black text-base">Boomingraka@student.ub.ac.d</span>
+                    <span className="px-4 text-black text-base">GOPA GOPI@student.ub.ac.d</span>
                   </div>
                 </div>
               </div>
