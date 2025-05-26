@@ -391,7 +391,7 @@ const CartPage: React.FC = () => {
         
         <div className="mt-20 flex justify-center">
           <p className="text-4xl font-normal italic text-center">
-            "Terimakasih sudah berbelanja di NgeMEAL"
+            "Terimakasih sudah berbelanja di GKMeal"
           </p>
         </div>
       </div>

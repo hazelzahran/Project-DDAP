@@ -20,13 +20,13 @@ const MenuPage: React.FC = () => {
       id: 1, 
       name: "STORE 1", 
       description: "Toko premium kami dengan koleksi lengkap peralatan dapur kualitas terbaik", 
-      image: "/Image-Upload/png/4c956da1-19b8-4276-a991-28eb88361a04.png" 
+      image: "../public/Image-Upload/jpg/store1.jpg" 
     },
     { 
       id: 2, 
       name: "STORE 2", 
       description: "Outlet yang menyediakan berbagai jenis pisau dan peralatan memotong", 
-      image: "/Image-Upload/png/4c956da1-19b8-4276-a991-28eb88361a04.png" 
+      image: "../public/Image-Upload/jpg/store2.jpg" 
     },
     { 
       id: 3, 
@@ -38,13 +38,13 @@ const MenuPage: React.FC = () => {
       id: 4, 
       name: "STORE 4", 
       description: "Toko khusus alat dapur modern dan teknologi memasak terkini", 
-      image: "/Image-Upload/png/4c956da1-19b8-4276-a991-28eb88361a04.png" 
+      image: "../public/Image-Upload/jpg/store4.jpg" 
     },
     { 
       id: 5, 
       name: "STORE 5", 
       description: "Outlet premium dengan layanan khusus dan produk eksklusif", 
-      image: "/Image-Upload/png/4c956da1-19b8-4276-a991-28eb88361a04.png" 
+      image: "../public/Image-Upload/jpg/store5.jpg" 
     }
   ];
 
@@ -88,7 +88,7 @@ const MenuPage: React.FC = () => {
                       src={store.image} 
                       alt={store.name} 
                       className="w-full h-full object-cover"
-                    />
+                    /> 
                   ) : (
                     <div className="w-full h-full flex items-center justify-center bg-gray-100">
                       <Store className="h-12 w-12 text-gray-400" />
@@ -97,7 +97,7 @@ const MenuPage: React.FC = () => {
                 </div>
               </div>
             ))}
-          </div>
+          </div> 
           
           {/* Desktop view - Grid layout yang rapi */}
           <div className="hidden md:grid grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">

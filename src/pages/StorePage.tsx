@@ -23,8 +23,8 @@ const StorePage: React.FC = () => {
   const storeDetails: Record<string, StoreDetail> = {
     "1": {
       id: 1,
-      name: "STORE 1",
-      image: "/Image-Upload/png/4c956da1-19b8-4276-a991-28eb88361a04.png",
+      name: "Snack Overflow",
+      image:"../public/Image-Upload/jpg/store1.jpg" ,
       description: "Toko premium kami dengan koleksi lengkap peralatan dapur kualitas terbaik.",
       address: "Jl. Pahlawan No. 123, Jakarta",
       phone: "+62 123-456-7890",
@@ -108,7 +108,7 @@ const StorePage: React.FC = () => {
                 className="w-full h-64 md:h-full object-cover"
               />
             </div>
-            <div className="p-6 md:w-1/2">
+            <div className="p-10 md:w-1/2">
               <h1 className="text-3xl md:text-4xl font-bold mb-4 text-foreground font-display">
                 {store.name}
               </h1>
