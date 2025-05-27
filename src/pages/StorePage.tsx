@@ -50,8 +50,8 @@ const StorePage: React.FC = () => {
     },
     "4": {
       id: 4,
-      name: "STORE 4",
-      image: "/Image-Upload/png/4c956da1-19b8-4276-a991-28eb88361a04.png",
+      name: "Beverages",
+      image: "/Image-Upload/png/Lapak Minuman.png",
       description: "Toko khusus alat dapur modern dan teknologi memasak terkini.",
       address: "Jl. Diponegoro No. 89, Semarang",
       phone: "+62 123-456-7893",
