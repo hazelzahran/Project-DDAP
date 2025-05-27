@@ -310,7 +310,7 @@ const FoodListPage = () => {
           </p>
           <div className="bg-white/10 backdrop-blur-sm rounded-lg p-8 mt-8">
             <h3 className="text-2xl font-bold text-white mb-4">
-              Find Delicious Favorite Foods at NgeMEAL!!!
+              Find Delicious Favorite Foods at GKMeal!!!
             </h3>
             <p className="text-lg text-white/90 leading-relaxed">
               Enjoy a wide selection of menus from the best tenants at FILKOM UB.

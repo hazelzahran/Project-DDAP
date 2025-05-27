@@ -112,7 +112,7 @@ const GalleryPage: React.FC = () => {
           
           <div className="bg-white/10 backdrop-blur-sm rounded-lg p-8 mb-16">
             <p className="text-xl text-center">
-              Find Delicious Favorite Foods at the NgeMEAL!!!
+              Find Delicious Favorite Foods at the GKMeal!!!
               <br />
               Enjoy a wide selection of menus from the best tenants at FILKOM UB.
               <br />

@@ -59,8 +59,8 @@ const StorePage: React.FC = () => {
     },
     "5": {
       id: 5,
-      name: "STORE 5",
-      image: "/Image-Upload/png/4c956da1-19b8-4276-a991-28eb88361a04.png",
+      name: "Noodles and Katsugoi",
+      image: "/Image-Upload/png/Lapak Mie Yamin.png",
       description: "Outlet premium dengan layanan khusus dan produk eksklusif.",
       address: "Jl. Ahmad Yani No. 34, Medan",
       phone: "+62 123-456-7894",
