@@ -42,7 +42,7 @@ const StorePage: React.FC = () => {
     "3": {
       id: 3,
       name: "Chicken Jockey",
-      image: "/Image-Upload/png/4c956da1-19b8-4276-a991-28eb88361a04.png",
+      image: "/Image-Upload/png/Chicken Jockey.png",
       description: "Gerai utama dengan area demo memasak dan konsultasi chef.",
       address: "Jl. Gajah Mada No. 67, Surabaya",
       phone: "+62 123-456-7892",
