@@ -32,7 +32,7 @@ const StorePage: React.FC = () => {
     },
     "2": { 
       id: 2,
-      name: "STORE 2",
+      name: "Indomie",
       image: "/Image-Upload/png/4c956da1-19b8-4276-a991-28eb88361a04.png",
       description: "Outlet yang menyediakan berbagai jenis pisau dan peralatan memotong.",
       address: "Jl. Sudirman No. 45, Bandung",
@@ -41,7 +41,7 @@ const StorePage: React.FC = () => {
     },
     "3": {
       id: 3,
-      name: "STORE 3",
+      name: "Chicken Jockey",
       image: "/Image-Upload/png/4c956da1-19b8-4276-a991-28eb88361a04.png",
       description: "Gerai utama dengan area demo memasak dan konsultasi chef.",
       address: "Jl. Gajah Mada No. 67, Surabaya",
@@ -51,7 +51,7 @@ const StorePage: React.FC = () => {
     "4": {
       id: 4,
       name: "Beverages",
-      image: "/Image-Upload/png/Lapak Minuman.png",
+      image: "/Image-Upload/png/Lapak Minuman (1).png",
       description: "Toko khusus alat dapur modern dan teknologi memasak terkini.",
       address: "Jl. Diponegoro No. 89, Semarang",
       phone: "+62 123-456-7893",
