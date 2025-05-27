@@ -31,6 +31,6 @@ const Hero: React.FC = () => {
       </div>
     </div>
   );
-};
+}; 
 
 export default Hero;

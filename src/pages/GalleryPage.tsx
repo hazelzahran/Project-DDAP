@@ -55,9 +55,7 @@ const GalleryPage: React.FC = () => {
           
           <div className="a-lightweight-and mb-12">
             <p className="text-lg mb-2">
-              A lightweight and multifunctional universal knife is the most
-              popular tool in the home and professional kitchen, used for
-              cutting small vegetables and fruits, cheese, sausages
+              
             </p>
           </div>
           

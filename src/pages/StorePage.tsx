@@ -30,7 +30,7 @@ const StorePage: React.FC = () => {
       phone: "+62 123-456-7890",
       openingHours: "Senin - Sabtu: 09:00 - 21:00"
     },
-    "2": {
+    "2": { 
       id: 2,
       name: "STORE 2",
       image: "/Image-Upload/png/4c956da1-19b8-4276-a991-28eb88361a04.png",
